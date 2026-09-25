@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/crtsh",
   "title": "Crtsh",
   "description": "crt.sh — Certificate Transparency log search",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/crtsh",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-crtsh",
