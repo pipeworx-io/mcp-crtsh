@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-crtsh",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "crt.sh — Certificate Transparency log search",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-ee71f588b76eba80a0f5e4782892822aa044f2007ecafffa326a11341ad6a5ea",
-    "sourceCommit": "5b29c2b0c11e1fcd954969a245b474e6e9475116"
+    "sourceHash": "v1-a5b873d77ed2afe2d632eacba524041e586fb9e589be4280cbe397047bd098ec",
+    "sourceCommit": "b0a4b8e2f3f5b3a4c3f9f2c9a73f91b20d32ce11"
   }
 }
