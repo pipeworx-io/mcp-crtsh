@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-crtsh",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "crt.sh — Certificate Transparency log search",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-crtsh": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "crtsh"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-crtsh.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/crtsh",
   "pipeworx": {
-    "sourceHash": "v1-8e051752bae37445c561a1e05d09310e26718f8929b8a2931121ec15e580b6e3",
-    "sourceCommit": "f1ef7a2f6b9cb1b8da1374ec2fcb28c661582b35"
+    "mode": "gateway",
+    "slug": "crtsh",
+    "gatewaySlug": "crtsh",
+    "sourceHash": "v1-17c5f7230da7f41f17cf8a135bbc71546dfda82ae04fb9d94ddc0a44661d4ae5",
+    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
   }
 }
