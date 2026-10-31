@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-crtsh",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "crt.sh — Certificate Transparency log search",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "crtsh",
     "gatewaySlug": "crtsh",
-    "sourceHash": "v1-17c5f7230da7f41f17cf8a135bbc71546dfda82ae04fb9d94ddc0a44661d4ae5",
-    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
+    "sourceHash": "v1-23484a8a111f15dbe8e11294d94d1466fc97480dc7a32dca562dd4cd7a61bfb6",
+    "sourceCommit": "8cc978183948532674e797c429305c9d8ab2a1c3"
   }
 }
